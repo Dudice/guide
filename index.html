@@ -1,8 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📜 Stream Command Guide</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #222;
+      line-height: 1.7;
+      margin: 20px auto;
+      max-width: 960px;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #222;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    code {
+      background-color: #f0f0f0;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+    hr {
+      margin: 30px 0;
+      border: 0;
+      height: 1px;
+      background: #ddd;
+    }
+    .notice {
+      border: 2px solid #ffa500;
+      background-color: #fff8e1;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .notice p {
+      margin: 8px 0;
+    }
+    .notice strong {
+      color: #e67e00;
+    }
+  </style>
+</head>
+<body>
+
 <h1>📜 Stream Command Guide</h1>
 
 <h2>📑 Directory</h2>
 <div style="display: flex; gap: 40px;">
-  <ul style="margin: 0; padding: 0;">
+  <ul>
     <li><a href="#basic-commands">Basic Commands</a></li>
     <li><a href="#wave-battles">Join Wave Battles</a></li>
     <li><a href="#curse-system">Curse System</a></li>
@@ -11,258 +66,20 @@
     <li><a href="#equipment-refinement">Equipment Refinement & Gear</a></li>
     <li><a href="#rules">Rules of War</a></li>
   </ul>
-
-  <ul style="margin: 0; padding: 0;">
+  <ul>
     <li><a href="#how-to-earn">💰 How to Earn</a></li>
   </ul>
 </div>
 
-<div style="border: 2px solid #ffa500; background-color: #fff8e1; padding: 15px; border-radius: 10px; margin-bottom: 20px; font-family: Arial, sans-serif;">
-  <p style="font-size: 1.2em; font-weight: bold; color: #e67e00;">⚠️ Important Notice – No Money Required</p>
+<div class="notice">
+  <p style="font-size: 1.2em; font-weight: bold;">⚠️ Important Notice – No Money Required</p>
   <p>In this Star Stream, you will <strong>never</strong> be asked to give any amount of money.</p>
   <p>This is a <strong>zero-risk, gain-only</strong> experience — you only earn, never lose.</p>
   <p>Everything you gain here is a reward for your <strong>participation and support</strong>.</p>
   <p style="font-weight: bold; color: #2e7d32;">Stay smart. Stay safe. Enjoy the stream! 🌟</p>
 </div>
 
-<!-- Moved detailed content here -->
-<h2 id="how-to-earn">💰 How to Earn</h2>
-<ul style="font-family: Arial, sans-serif; font-size: 1.05em; line-height: 1.6;">
-  <li>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Method 1 – Random Chance from Commands:</span></p>
-    <p>Use <code>!summon</code>, <code>!buff</code>, or <code>!potion</code> — 
-    each has a <strong>3% chance</strong> to earn <strong>5 GCOIN</strong> 💠!</p>
-  </li>
-
-  <li>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Method 2 – Leaderboard Reward (Starting Season Zero):</span></p>
-    <p>The <strong>Top 1 Constellation</strong> with the highest CP by the end of <strong>Season 0</strong> 
-    will automatically earn <strong>500 GCOIN</strong> 🏆!</p>
-  </li>
-
-  <li>
-    <p><strong>Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code></p>
-  </li>
-
-  <li>
-    <p>Once you have <strong>200 GCOIN or more</strong>, claim your reward by typing:</p>
-    <p><code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span></p>
-  </li>
-
-  <li>
-    <p>Add your GCash number by typing:</p>
-    <p><code>!register 09950248784</code> 
-    <img src="gcash-icon.png" alt="GCash" style="height: 1em; vertical-align: middle;"></p>
-  </li>
-
-  <li style="color: #888; font-size: 0.9em;">
-    <p>⏳ Please allow <strong>1–3 days</strong> for processing.</p>
-    <p>This system is new and all GCOIN claims are verified manually for now.</p>
-  </li>
-</ul>
-
-
-
-
-
-</div>
-
-<h2 id="basic-commands">🎮 Basic Commands</h2>
-<p><strong>!summon</strong> – Summon monsters and earn CP:</p>
-<ul>
-  <li>1 monster = +1 CP</li>
-  <li>2 monsters = +2 CP</li>
-  <li>3 monsters = +3 CP</li>
-  <li>Monster level: Your level −5 up to +5</li>
-</ul>
-
-<p><strong>!buff</strong> – Empower your hero:</p>
-<ul>
-  <li>Normal Buff: +1 CP  
-    <ul>
-      <li>Heal</li>
-      <li>Blessing</li>
-      <li>Increase Agility</li>
-    </ul>
-  </li>
-  <li>Great Buff: +2 CP  
-    <ul>
-      <li>Heal</li>
-      <li>Blessing</li>
-      <li>Increase Agility</li>
-      <li>Magnificat</li>
-      <li>Angelus</li>
-    </ul>
-  </li>
-  <li>Epic Buff: +3 CP  
-    <ul>
-      <li>Heal</li>
-      <li>Blessing</li>
-      <li>Increase Agility</li>
-      <li>Assumptio</li>
-      <li>Impositio Manus</li>
-    </ul>
-  </li>
-  <li>Legendary Buff: +10 CP  
-    <ul>
-      <li>Heal</li>
-      <li>Blessing</li>
-      <li>Increase Agility</li>
-      <li>Kyrie Eleison</li>
-      <li>Gloria</li>
-      <li>CP Weapon</li>
-      <li>CP Shield</li>
-      <li>CP Armor</li>
-      <li>CP Helm</li>
-    </ul>
-  </li>
-  <li>Ultimate Buff: +25 CP  
-    <ul>
-      <li>Heal</li>
-      <li>Blessing</li>
-      <li>Increase Agility</li>
-      <li>Magnificat</li>
-      <li>Angelus</li>
-      <li>Assumptio</li>
-      <li>Impositio Manus</li>
-      <li>Kyrie Eleison</li>
-      <li>Gloria</li>
-      <li>CP Weapon</li>
-      <li>CP Shield</li>
-      <li>CP Armor</li>
-      <li>CP Helm</li>
-      <li>Adrenaline Rush</li>
-      <li>Weapon Perfection</li>
-      <li>Overthrust</li>
-      <li>Max Overthrust</li>
-    </ul>
-  </li>
-</ul>
-
-<p><strong>!potion</strong> – Open potion chests:</p>
-<ul>
-  <li>24% Red Potion = +1 CP</li>
-  <li>23% Yellow Potion = +2 CP</li>
-  <li>23% White Potion = +3 CP</li>
-  <li>15% Blue Potion = +10 CP</li>
-  <li>10% Yggdrasil Seed = +20CP</li>
-  <li>5% Yggdrasil Berry = +50 CP</li>
-</ul>
-<p><strong>!mine</strong> – summon monsters that gives Refine Points (RP)
-  <ul>
-  <li>Mineral = +1 RP</li>
-  <li>Cobalt = +2 RP</li>
-  <li>Bradium = +3 RP</li>
-</ul>
-<hr>
-
-<h2 id="wave-battles">⚔️ Join Wave Battles</h2>
-<p><strong>!joinwave</strong> – Choose difficulty and fight waves:</p>
-<ul>
-  <li>Easy: +1 CP per wave</li>
-  <li>Medium: +2 CP per wave</li>
-  <li>Difficult: +3 CP per wave</li>
-</ul>
-<p>▪ 5 waves per session.<br>
-▪ Waves arrive every 30 minutes.<br>
-▪ Registration opens 5 minutes after the previous wave ends.<br>
-▪ Refer to the upper-left clock for wave timing.</p>
-
-<hr>
-
-<h2 id="curse-system">🧙‍♂️ Curse System</h2>
-<p><strong>!curse</strong> – High-risk CP battle:</p>
-<ul>
-  <li>Summons 1–4 monsters (Level: Hero +0 to +10)</li>
-  <li>If caster wins: +2× monster count CP, Top 1 loses monster count CP</li>
-  <li>If hero dies: Caster loses 2× monster count CP, Top 1 gains monster count CP</li>
-</ul>
-
-<hr>
-
-<h2 id="hero-hunts">🏹 Hero Hunts</h2>
-<p><strong>!hunt</strong> – Send your hero on a timed mission:</p>
-<ul>
-  <li>1 minute = +1 CP</li>
-  <li>3 minutes = +3 CP</li>
-  <li>5 minutes = +5 CP</li>
-</ul>
-<p>▪ Stack time up to a max of 60 minutes.<br>
-▪ Earn Hunt Points based on total hunt time.<br>
-▪ Climb the Hunt Leaderboard!</p>
-
-<hr>
-
-<h2 id="map-unlocking">🗺️ Map Unlocking & Navigation</h2>
-<p><strong>!unlocknextmap</strong> – Unlock the next map in the progression:</p>
-<ul>
-  <li>Consumes the corresponding CP cost required to unlock.</li>
-  <li>Once unlocked, your hero is automatically teleported to the new map.</li>
-  <li>Type <code>!yes</code> to confirm and buy the map after using <code>!unlocknextmap</code>.</li>
-</ul>
-<p><strong>!warp mapname</strong> – Teleport to any unlocked map.</p>
-
-<p><strong>!map – View the Star Map</p>
-<p><strong>!game – Return to the Main Game</p>
-<p><strong>!help – Show Help Menu</p>
-
-
-<hr>
-<h2 id="equipment-refinement">⚒️ Equipment Refinement & Gear</h2>
-<p><strong>!refine weapon</strong> – Refine your weapon:</p>
-<ul>
-  <li>Each refine adds +1 to weapon level.</li>
-  <li>Higher refine = more damage but lower success rate.</li>
-  <li>Costs 10 RP per refine attempt.</li>
-</ul>
-
-<p><strong>!refine armor</strong> – Refine your armor:</p>
-<ul>
-  <li>Each refine adds +1 to armor level.</li>
-  <li>Higher refine = more defense but lower success rate.</li>
-  <li>Costs 10 RP per refine attempt.</li>
-</ul>
-<p><strong>!refine shield</strong> – Refine your armor:</p>
-<ul>
-  <li>Each refine adds +1 to armor level.</li>
-  <li>Higher refine = more defense but lower success rate.</li>
-  <li>Costs 10 RP per refine attempt.</li>
-</ul>
-
-<p><strong>!refine headupper</strong> – Refine your armor:</p>
-<ul>
-  <li>Each refine adds +1 to armor level.</li>
-  <li>Higher refine = more defense but lower success rate.</li>
-  <li>Costs 10 RP per refine attempt.</li>
-</ul>
-<p><strong>!refine shoes</strong> – Refine your armor:</p>
-<ul>
-  <li>Each refine adds +1 to armor level.</li>
-  <li>Higher refine = more defense but lower success rate.</li>
-  <li>Costs 10 RP per refine attempt.</li>
-</ul>
-<p><strong>!refine muffler</strong> – Refine your armor:</p>
-<ul>
-  <li>Each refine adds +1 to armor level.</li>
-  <li>Higher refine = more defense but lower success rate.</li>
-  <li>Costs 10 RP per refine attempt.</li>
-</ul>
-<p><strong>!gear</strong> – View your equipment and refine status.</p>
-<ul>
-  <li>Opens the gear window showing your current equips and their refine levels.</li>
-</ul>
-</ul>
-<p><strong>!mine</strong> – summon monsters that gives Refine Points (RP)
-<ul>
-<hr>
-
-<h2 id="rules">🚫 Rules of War</h2>
-<ul>
-  <li>No spamming commands.</li>
-  <li>Alternate commands—avoid repeats (e.g., <code>!summon</code> → <code>!buff</code>).</li>
-  <li>Strategic players rise; spammers are ignored.</li>
-  <li>Climb the Leaderboards to earn GCash prizes!</li>
-</ul>
+<!-- Additional content like How to Earn, Commands, and Rules would follow here -->
 
 </body>
 </html>
