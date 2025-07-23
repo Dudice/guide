@@ -20,29 +20,35 @@
 <!-- Moved detailed content here -->
 <h2 id="how-to-earn">💰 How to Earn</h2>
 <ul>
-  <li>
+  <li><strong>Method 1 – Random Chance from Commands:</strong><br>
     Use <code>!summon</code>, <code>!buff</code>, or <code>!potion</code> — 
     each has a <strong>3% chance</strong> to earn <strong>5 GCOIN</strong> 💠!
   </li>
+
+  <li><strong>Method 2 – Leaderboard Reward (Starting Season Zero):</strong><br>
+    The <strong>Top 1 Constellation</strong> with the highest CP by the end of <strong>Season 0</strong> 
+    will automatically earn <strong>500 GCOIN</strong> 🏆!
+  </li>
+
   <li>
     <strong>Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code>
   </li>
+
   <li>
     Once you have <strong>200 GCOIN or more</strong>, claim your reward by typing:<br>
     <code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span>
   </li>
-  <li>
-    GCOIN is <strong>redeemable</strong> for a minimum of <strong>₱200</strong> 
-    (with a <strong>1% transfer fee</strong>).
-  </li>
+
   <li>
     Add your GCash number by typing <code>!register 09950248784</code> 
     <img src="gcash-icon.png" alt="GCash" style="height: 1em; vertical-align: middle;">
   </li>
+
   <li style="color: #888; font-size: 0.9em;">
     ⏳ Please allow <strong>1–3 days</strong> for processing. This system is new and all GCOIN claims are verified manually for now.
   </li>
 </ul>
+
 
 </div>
 
