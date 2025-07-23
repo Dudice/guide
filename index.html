@@ -1,15 +1,36 @@
 <h1>📜 Stream Command Guide</h1>
 
 <h2>📑 Directory</h2>
-<ul>
-  <li><a href="#basic-commands">Basic Commands</a></li>
-  <li><a href="#wave-battles">Join Wave Battles</a></li>
-<li><a href="#curse-system">Curse System</a></li>
-  <li><a href="#hero-hunts">Hero Hunts</a></li>
-  <li><a href="#map-unlocking">Map Unlocking & Navigation</a></li>
-  <li><a href="#equipment-refinement">Equipment Refinement & Gear</a></li>
-  <li><a href="#rules">Rules of War</a></li>
+<div style="display: flex; gap: 40px;">
+  <ul style="margin: 0; padding: 0;">
+    <li><a href="#basic-commands">Basic Commands</a></li>
+    <li><a href="#wave-battles">Join Wave Battles</a></li>
+    <li><a href="#curse-system">Curse System</a></li>
+    <li><a href="#hero-hunts">Hero Hunts</a></li>
+    <li><a href="#map-unlocking">Map Unlocking & Navigation</a></li>
+    <li><a href="#equipment-refinement">Equipment Refinement & Gear</a></li>
+    <li><a href="#rules">Rules of War</a></li>
+  </ul>
+
+<ul style="margin: 0; padding: 0;">
+  <li><a href="#how-to-earn">💰 How to Earn</a></li>
+  <li style="margin-left: 1em; list-style: disc;">
+    Use <code>!summon</code>, <code>!buff</code>, or <code>!potion</code> — 
+    each has a <strong>3% chance</strong> to earn <strong>5 GCOIN</strong> 💠!
+  </li>
+  <li style="margin-left: 1em; list-style: disc;">
+    GCOIN is <strong>redeemable</strong> for a minimum of <strong>₱200</strong> 
+    (with a <strong>1% transfer fee</strong>).
+  </li>
+  <li style="margin-left: 1em; list-style: disc;">
+    Add your GCash number by typing <code>!register 09950248784</code> 
+    <img src="gcash-icon.png" alt="GCash" style="height: 1em; vertical-align: middle;">
+  </li>
+  <li style="margin-left: 1em; list-style: disc; color: #888; font-size: 0.9em;">
+    ⏳ Please allow <strong>1–3 days</strong> for processing. This system is new and all GCOIN claims are verified manually for now.
+  </li>
 </ul>
+</div>
 
 <h2 id="basic-commands">🎮 Basic Commands</h2>
 <p><strong>!summon</strong> – Summon monsters and earn CP:</p>
