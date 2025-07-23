@@ -80,6 +80,31 @@
 </div>
 
 <!-- Additional content like How to Earn, Commands, and Rules would follow here -->
-
+<h2 id="how-to-earn">💰 How to Earn</h2>
+<ul>
+  <li>
+    <p><span style="font-size: 1.2em; font-weight: bold;">Method 1 – Random Chance from Commands:</span></p>
+    <p>Use <code>!summon</code>, <code>!buff</code>, or <code>!potion</code> — each has a <strong>3% chance</strong> to earn <strong>5 GCOIN</strong> 💠!</p>
+  </li>
+  <li>
+    <p><span style="font-size: 1.2em; font-weight: bold;">Method 2 – Leaderboard Reward (Starting Season Zero):</span></p>
+    <p>The <strong>Top 1 Constellation</strong> with the highest CP by the end of <strong>Season 0</strong> will automatically earn <strong>500 GCOIN</strong> 🏆!</p>
+  </li>
+  <li>
+    <p><strong>Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code></p>
+  </li>
+  <li>
+    <p>Once you have <strong>200 GCOIN or more</strong>, claim your reward by typing:</p>
+    <p><code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span></p>
+  </li>
+  <li>
+    <p>Add your GCash number by typing:</p>
+    <p><code>!register 09950248784</code> <img src="gcash-icon.png" alt="GCash" style="height: 1em; vertical-align: middle;"></p>
+  </li>
+  <li style="color: #888; font-size: 0.9em;">
+    <p>⏳ Please allow <strong>1–3 days</strong> for processing.</p>
+    <p>This system is new and all GCOIN claims are verified manually for now.</p>
+  </li>
+</ul>
 </body>
 </html>
