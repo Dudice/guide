@@ -1,55 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>📜 Stream Command Guide</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fdfdfd;
-      color: #222;
-      line-height: 1.7;
-      margin: 20px auto;
-      max-width: 960px;
-      padding: 0 20px;
-    }
-    h1, h2 {
-      color: #222;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
-    }
-    ul {
-      padding-left: 20px;
-      margin-bottom: 20px;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    code {
-      background-color: #f0f0f0;
-      padding: 2px 5px;
-      border-radius: 3px;
-    }
-    hr {
-      margin: 30px 0;
-      border: 0;
-      height: 1px;
-      background: #ddd;
-    }
-    .notice {
-      border: 2px solid #ffa500;
-      background-color: #fff8e1;
-      padding: 15px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    .notice p {
-      margin: 8px 0;
-    }
-    .notice strong {
-      color: #e67e00;
-    }
-  </style>
 </head>
 <body>
 
@@ -83,179 +37,80 @@
 <h2 id="how-to-earn">💰 How to Earn</h2>
 <ul style="font-size: 1.05em; line-height: 1.6;">
   <li>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Method 1 – Random Chance from Commands:</span></p>
+    <p><span style="font-size: 1.2em; font-weight: bold;">🎮 Method 1 – Random Chance from Commands:</span></p>
     <p>Use <code>!summon</code>, <code>!buff</code>, or <code>!potion</code> — each has a <strong>3% chance</strong> to earn <strong>5 GCOIN</strong> 🔠</p>
   </li>
+
   <li>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Method 2 – Leaderboard Reward (Starting Season Zero):</span></p>
-    <p>The <strong>Top 1 Constellation</strong> with the highest CP by the end of <strong>Season 0</strong> will automatically earn <strong>500 GCOIN</strong> 🏆</p>
+    <p><span style="font-size: 1.2em; font-weight: bold;">🏆 Method 2 – Leaderboard Reward:</span></p>
+    <p>The <strong>Top 1 Constellation</strong> by the end of <strong>Season Zero</strong> will receive <strong>500 GCOIN</strong> automatically!</p>
   </li>
+
   <li>
-    <p><strong>Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code></p>
+    <p><strong>💱 Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code></p>
   </li>
+
   <li>
-    <p>Once you have <strong>200 GCOIN or more</strong>, claim your reward by typing:</p>
-    <p><code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span></p>
+    <p><strong>🎁 Claim GCash once you reach 200 GCOIN:</strong></p>
+    <p>Type <code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span></p>
   </li>
+
   <li>
-    <p>Add your GCash number by typing:</p>
-    <p><code>!register 09950248784</code> <img src="gcash-icon.png" alt="GCash" style="height: 1em; vertical-align: middle;"></p>
+    <p><strong>🔐 Secure Registration & Wallet:</strong></p>
+    <p>📱 Download the Telegram app or click here 👉 <a href="https://t.me/RagnarokLiveBot" target="_blank">https://t.me/RagnarokLiveBot</a></p>
+    <p>We handle all sensitive info there for your safety. Once inside, you can:</p>
+    <ul style="margin-top: 0.5em; padding-left: 1.5em;">
+      <li>📝 Use <code>/register &lt;GCashNumber&gt; &lt;YouTubeUsername&gt;</code> to register</li>
+      <li>💰 Use <code>/mygcoin</code> to view your total GCOIN</li>
+      <li>📤 Soon: <code>/claim &lt;amount&gt;</code> to withdraw</li>
+    </ul>
   </li>
+
   <li style="color: #888; font-size: 0.9em;">
-    <p>⏳ Please allow <strong>1–3 days</strong> for processing.</p>
-    <p>This system is new and all GCOIN claims are verified manually for now.</p>
+    <p>⏳ Please allow <strong>1–3 days</strong> for GCash processing.</p>
+    <p>This system is new — all claims are manually verified for now.</p>
+    <p>⚠️ A small <strong>2% processing fee</strong> is currently applied to all withdrawals to prevent spam. This will be removed or reduced in the future once automatic payouts are enabled.</p>
   </li>
 </ul>
+
   
 <h2 id="basic-commands">🎮 Basic Commands</h2>
 <p><strong>!summon</strong> – Summon monsters and earn CP:</p>
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Summon Tier</th>
-      <th>Chance</th>
-      <th>Monster Count</th>
-      <th>CP Earned</th>
-      <th>Monster Level Range</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Ultra Rare</strong> (Golden Savage)</td>
-      <td>≤ 3%</td>
-      <td>1</td>
-      <td>100 CP + 10 GCOIN</td>
-      <td rowspan="6" style="text-align: center;">Your Level −5 to +5</td>
-    </tr>
-    <tr>
-      <td>Very Rare</td>
-      <td>3% - 10%</td>
-      <td>5</td>
-      <td>10 CP</td>
-    </tr>
-    <tr>
-      <td>Rare</td>
-      <td>10% - 32.5%</td>
-      <td>4</td>
-      <td>4 CP</td>
-    </tr>
-    <tr>
-      <td>Uncommon</td>
-      <td>32.5% - 55%</td>
-      <td>3</td>
-      <td>3 CP</td>
-    </tr>
-    <tr>
-      <td>Common</td>
-      <td>55% - 77.5%</td>
-      <td>2</td>
-      <td>2 CP</td>
-    </tr>
-    <tr>
-      <td>Basic</td>
-      <td>77.5% - 100%</td>
-      <td>1</td>
-      <td>1 CP</td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>1 monster = +1 CP</li>
+  <li>2 monsters = +2 CP</li>
+  <li>3 monsters = +3 CP</li>
+  <li>Monster level: Your level −5 up to +5</li>
+</ul>
 
+<p><strong>!buff</strong> – Empower your hero:</p>
+<ul>
+  <li>Normal Buff: +1 CP
+    <ul>
+      <li>Heal</li>
+      <li>Blessing</li>
+      <li>Increase Agility</li>
+    </ul>
+  </li>
+  <li>Great Buff: +2 CP
+    <ul>
+      <li>Heal</li>
+      <li>Blessing</li>
+      <li>Increase Agility</li>
+      <li>Magnificat</li>
+      <li>Angelus</li>
+    </ul>
+  </li>
+</ul>
 
-<p><strong>!buff</strong> – Receive a constellation buff and earn CP:</p>
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Buff Tier</th>
-      <th>Chance</th>
-      <th>CP Earned</th>
-      <th>Bonus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Ultimate Buff</strong></td>
-      <td>3%</td>
-      <td>25 CP</td>
-      <td>+5 GCOIN</td>
-    </tr>
-    <tr>
-      <td>Legendary Buff</td>
-      <td>~9%</td>
-      <td>10 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Epic Buff</td>
-      <td>~22%</td>
-      <td>3 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Great Buff</td>
-      <td>~26%</td>
-      <td>2 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Normal Buff</td>
-      <td>~40%</td>
-      <td>1 CP</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-
-
-<p><strong>!potion</strong> – Open potion chests and earn CP:</p>
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Potion Type</th>
-      <th>Chance</th>
-      <th>CP Earned</th>
-      <th>Bonus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Yggdrasil Berry</strong></td>
-      <td>3%</td>
-      <td>50 CP</td>
-      <td>+5 GCOIN</td>
-    </tr>
-    <tr>
-      <td>Yggdrasil Seed</td>
-      <td>9.7%</td>
-      <td>20 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Blue Potion</td>
-      <td>19.4%</td>
-      <td>10 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>White Potion</td>
-      <td>19.4%</td>
-      <td>3 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Yellow Potion</td>
-      <td>19.4%</td>
-      <td>2 CP</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>Red Potion</td>
-      <td>29.1%</td>
-      <td>1 CP</td>
-      <td>—</td>
-    </tr>
-  </tbody>
-</table>
-/li>
+<p><strong>!potion</strong> – Open potion chests:</p>
+<ul>
+  <li>24% Red Potion = +1 CP</li>
+  <li>23% Yellow Potion = +2 CP</li>
+  <li>23% White Potion = +3 CP</li>
+  <li>15% Blue Potion = +10 CP</li>
+  <li>10% Yggdrasil Seed = +20 CP</li>
+  <li>5% Yggdrasil Berry = +50 CP</li>
 </ul>
 
 <hr>
