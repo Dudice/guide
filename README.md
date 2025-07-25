@@ -37,29 +37,42 @@
 <h2 id="how-to-earn">💰 How to Earn</h2>
 <ul style="font-size: 1.05em; line-height: 1.6;">
   <li>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Method 1 – Random Chance from Commands:</span></p>
+    <p><span style="font-size: 1.2em; font-weight: bold;">🎮 Method 1 – Random Chance from Commands:</span></p>
     <p>Use <code>!summon</code>, <code>!buff</code>, or <code>!potion</code> — each has a <strong>3% chance</strong> to earn <strong>5 GCOIN</strong> 🔠</p>
   </li>
+
   <li>
-    <p><span style="font-size: 1.2em; font-weight: bold;">Method 2 – Leaderboard Reward (Starting Season Zero):</span></p>
-    <p>The <strong>Top 1 Constellation</strong> with the highest CP by the end of <strong>Season 0</strong> will automatically earn <strong>500 GCOIN</strong> 🏆</p>
+    <p><span style="font-size: 1.2em; font-weight: bold;">🏆 Method 2 – Leaderboard Reward:</span></p>
+    <p>The <strong>Top 1 Constellation</strong> by the end of <strong>Season Zero</strong> will receive <strong>500 GCOIN</strong> automatically!</p>
   </li>
+
   <li>
-    <p><strong>Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code></p>
+    <p><strong>💱 Current exchange rate:</strong> <code>200 GCOIN = ₱200 GCash</code></p>
   </li>
+
   <li>
-    <p>Once you have <strong>200 GCOIN or more</strong>, claim your reward by typing:</p>
-    <p><code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span></p>
+    <p><strong>🎁 Claim GCash once you reach 200 GCOIN:</strong></p>
+    <p>Type <code>!claimgcoin 200</code> <span style="color: #888;">(or any amount you want to redeem)</span></p>
   </li>
+
   <li>
-    <p>Add your GCash number by typing:</p>
-    <p><code>!register 09950248784</code> <img src="gcash-icon.png" alt="GCash" style="height: 1em; vertical-align: middle;"></p>
+    <p><strong>🔐 Secure Registration & Wallet:</strong></p>
+    <p>📱 Download the Telegram app or click here 👉 <a href="https://t.me/RagnarokLiveBot" target="_blank">https://t.me/RagnarokLiveBot</a></p>
+    <p>We handle all sensitive info there for your safety. Once inside, you can:</p>
+    <ul style="margin-top: 0.5em; padding-left: 1.5em;">
+      <li>📝 Use <code>/register &lt;GCashNumber&gt; &lt;YouTubeUsername&gt;</code> to register</li>
+      <li>💰 Use <code>/mygcoin</code> to view your total GCOIN</li>
+      <li>📤 Soon: <code>/claim &lt;amount&gt;</code> to withdraw</li>
+    </ul>
   </li>
+
   <li style="color: #888; font-size: 0.9em;">
-    <p>⏳ Please allow <strong>1–3 days</strong> for processing.</p>
-    <p>This system is new and all GCOIN claims are verified manually for now.</p>
+    <p>⏳ Please allow <strong>1–3 days</strong> for GCash processing.</p>
+    <p>This system is new — all claims are manually verified for now.</p>
+    <p>⚠️ A small <strong>2% processing fee</strong> is currently applied to all withdrawals to prevent spam. This will be removed or reduced in the future once automatic payouts are enabled.</p>
   </li>
 </ul>
+
   
 <h2 id="basic-commands">🎮 Basic Commands</h2>
 <p><strong>!summon</strong> – Summon monsters and earn CP:</p>
