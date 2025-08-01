@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Top Earners Leaderboard</title>
+  <title>Top Earners & Season Leaderboards</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -30,7 +30,7 @@
     }
     .leaderboard {
       display: none;
-      max-width: 600px;
+      max-width: 700px;
       margin: 0 auto;
       background: white;
       border-radius: 8px;
@@ -53,11 +53,17 @@
     th {
       background: #f0f0f0;
     }
+    .top1 {
+      background-color: #fff8dc;
+      font-weight: bold;
+      color: #d4af37;
+      font-size: 1.2em;
+    }
   </style>
 </head>
 <body>
 
-<h1>🏆 Top Earners Leaderboard</h1>
+<h1 id="top-earners-leaderboards">📊 Top Earners & Leaderboards</h1>
 
 <div class="season-tabs">
   <button onclick="showSeason(0)" class="active">Season 0 - BETA</button>
