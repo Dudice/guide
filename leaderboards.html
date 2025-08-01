@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Top Earners Leaderboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .season-tabs {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .season-tabs button {
+      margin: 0 5px;
+      padding: 10px 20px;
+      border: none;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .season-tabs button.active {
+      background: #0056b3;
+    }
+    .leaderboard {
+      display: none;
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .leaderboard.active {
+      display: block;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🏆 Top Earners Leaderboard</h1>
+
+<div class="season-tabs">
+  <button onclick="showSeason(0)" class="active">Season 0 - BETA</button>
+  <button onclick="showSeason(1)">Season 1 - Current</button>
+</div>
+
+<!-- Season 0 -->
+<div id="season0" class="leaderboard active">
+  <h2>Season 0 - BETA</h2>
+  <table>
+    <tr><th>Rank</th><th>Username</th><th>Total CP</th></tr>
+    <tr><td>1</td><td>PlayerAlpha</td><td>2500</td></tr>
+    <tr><td>2</td><td>BetaSlayer</td><td>1800</td></tr>
+    <tr><td>3</td><td>TestMage</td><td>1600</td></tr>
+  </table>
+</div>
+
+<!-- Season 1 -->
+<div id="season1" class="leaderboard">
+  <h2>Season 1 - Current</h2>
+  <table>
+    <tr><th>Rank</th><th>Username</th><th>Total CP</th></tr>
+    <tr><td>1</td><td>CurrentHero</td><td>3500</td></tr>
+    <tr><td>2</td><td>XPGrinder</td><td>3200</td></tr>
+    <tr><td>3</td><td>SummonKing</td><td>3000</td></tr>
+  </table>
+</div>
+
+<script>
+  function showSeason(season) {
+    document.querySelectorAll('.leaderboard').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.season-tabs button').forEach(el => el.classList.remove('active'));
+    document.getElementById('season' + season).classList.add('active');
+    document.querySelectorAll('.season-tabs button')[season].classList.add('active');
+  }
+</script>
+
+</body>
+</html>
