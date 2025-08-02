@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💾 Patch Notes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2em;
+    }
+    .entry {
+      margin-bottom: 20px;
+    }
+    .date {
+      font-weight: bold;
+      color: #2b7a78;
+      margin-bottom: 5px;
+      font-size: 1.1em;
+    }
+    .desc {
+      margin-left: 20px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💾 Patch Notes</h1>
+
+  <div class="entry">
+    <div class="date">📅 July 1, 2025</div>
+    <div class="desc">🚀 Started the idea of streaming</div>
+  </div>
+
+  <div class="entry">
+    <div class="date">📅 July 2, 2025</div>
+    <div class="desc">🧪 Implemented commands: <strong>!summon</strong>, <strong>!buff</strong>, <strong>!potion</strong></div>
+  </div>
+
+  <div class="entry">
+    <div class="date">📅 July 9, 2025</div>
+    <div class="desc">🎨 Re-imagined the User Interface for better visuals</div>
+  </div>
+
+  <div class="entry">
+    <div class="date">📅 July 31, 2025</div>
+    <div class="desc">🏁 End of Season 0 – Beta Test Season</div>
+  </div>
+
+  <div class="entry">
+    <div class="date">📅 August 1, 2025</div>
+    <div class="desc">🌟 Launch of New Season begins</div>
+  </div>
+
+  <div class="entry">
+    <div class="date">📅 August 2, 2025</div>
+    <div class="desc">🔐 Implemented secure GCoin withdrawal system</div>
+  </div>
+
+</body>
+</html>
